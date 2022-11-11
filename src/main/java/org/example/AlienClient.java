@@ -21,5 +21,5 @@ public abstract class AlienClient implements Client {
 
     protected abstract OrderingStrategy createOrderingStrategy();
 
-    protected OrderingStrategy strategy;
+    private OrderingStrategy strategy;
 }
